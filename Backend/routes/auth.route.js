@@ -1,5 +1,5 @@
 import {Router} from 'express'
-import {googleAuth, logOut} from '../controllers/auth.controller'
+import {googleAuth, logOut} from '../controllers/auth.controller.js'
 
 const router = Router()
 

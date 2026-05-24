@@ -16,10 +16,15 @@ app.use(express.json())
 app.use(cookieParser())
 
 
+
+
+
 //import routes
 import authRouter from './routes/auth.route.js'
+import userRoute from './routes/user.route.js'
 
 app.use("/api/v1/auth", authRouter)
+app.use("/api/v1/user", userRoute)
 
 
 
